@@ -13,9 +13,9 @@ export function createQuery<T>(
   if (convex === undefined) {
     throw "No convex context";
   }
-  let fullArgs = args ?? [];
+  let fullArgs = args ?? {};
   return from((setter) => {
-    const unsubber = convex!.onUpdate(query, args, setter);
+    const unsubber = convex!.onUpdate(query, fullArgs, setter);
     return unsubber;
   });
 }
