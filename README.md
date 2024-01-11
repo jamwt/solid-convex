@@ -1,7 +1,7 @@
 # SolidJS + Convex
 
 This repo demonstrates a very basic library to bind SolidJS projects to the
-Convex global state management system.
+[Convex backend application platform](https://convex.dev).
 
 The heart of this library is in `src/cvxsolid.ts`.
 
