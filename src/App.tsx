@@ -1,7 +1,6 @@
 import { Component, createSignal } from "solid-js";
 import { api } from "../convex/_generated/api";
 
-import logo from "./logo.svg";
 import styles from "./App.module.css";
 import { createMutation, createQuery } from "./cvxsolid";
 
